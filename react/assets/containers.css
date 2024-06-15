@@ -1,0 +1,66 @@
+.title-bar {
+    text-align: right;
+    font-size: 23px;
+}
+
+.title-bar button {
+    padding: 0;
+    margin: 0;
+}
+
+.settings {
+    margin: 0 18px 35px 18px
+}
+
+.settings select:focus {
+    outline: none;
+}
+
+.recording-buttons {
+    font-size: 20px;
+    text-align: center;
+}
+
+.webcam {
+    object-fit: cover;
+    overflow: hidden;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}
+
+.webcam-settings {
+    display: none;
+}
+
+.webcam-settings .bottom {
+    position: absolute;
+    margin-right: auto;
+    margin-left: auto;
+    bottom: 13%;
+    right: 0;
+    left: 0;
+}
+
+.webcam-settings .top {
+    position: absolute;
+    top: 13%;
+    left: 17%;
+}
+
+.webcam-settings .top select {
+    width: 210px;
+}
+
+.user-data p {
+    margin: 13px 10px;
+    font-size: 20px;
+}
+
+.left {
+    float: left;
+}
+
+.inputs {
+    margin: 0 0 20px 0;
+}

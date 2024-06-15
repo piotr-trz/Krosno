@@ -1,0 +1,45 @@
+@font-face {
+    font-family: _Montserrat;
+    src: url(./inter.ttf);
+}
+
+html {
+    -webkit-app-region: drag;
+}
+
+body {
+    color: white;
+    font-size: 22px;
+    font-family: _Montserrat, serif;
+    background: url(./background.jpg);
+}
+
+p {
+    font-size: 22px;
+    margin: 16px 10px;
+}
+
+a {
+    font-size: 28px;
+    color: gray;
+    -webkit-app-region: no-drag;
+    text-decoration: none;
+}
+
+button {
+    -webkit-app-region: no-drag;
+    font-size: inherit;
+    font-family: inherit;
+    padding: 7px 12px;
+    margin: 9px 4px;
+}
+
+select, input {
+    -webkit-app-region: no-drag;
+    font-size: 17px;
+    font-family: inherit;
+    padding: 1px 3px;
+    margin: 0 0 0 18px;
+    min-width: 90%;
+    max-width: 90%;
+}
